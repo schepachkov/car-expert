@@ -83,6 +83,6 @@ public class Car {
 
     @Override
     public String toString() {
-        return String.format("Автомобиль %s, стоимостью %s рублей, мощностью %s л/с, страна производитель %s, бренд %s, тип %s.", name, cost, hp, producerCountry, producer, type);
+        return String.format("Автомобиль %s, стоимостью %s рублей, мощностью %s л/с, страна производитель %s, бренд %s, тип %s.", name, cost, hp, producerCountry, producer, type.getName());
     }
 }
