@@ -15,8 +15,13 @@ public class RangeType {
     public static RangeType create(String range, String separator) {
         if (isValid(range, separator)) {
             String[] values = range.split(separator);
-            if (values.length > 1) {
-                return new RangeType(Integer.valueOf(values[0].replace("_", "")), Integer.valueOf(values[values.length-1].replace("_", "")));
+            if (values.length > 0) {
+                if (values.length > 1) {
+                    return new RangeType(Integer.valueOf(values[0].replace("_", "")), Integer.valueOf(values[values.length-1].replace("_", "")));
+                } else {
+                    Integer value = Integer.valueOf(values[0].replace("_", ""));
+                    return new RangeType(value, value);
+                }
             }
         }
         return null;

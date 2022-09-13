@@ -18,7 +18,7 @@ public class CarStorage {
         CARS.add(new Car("Audi A5", 2_000, 190, Producer.AUDI, ProducerCountry.GERMANY, Type.COUPE));
         CARS.add(new Car("Toyota Prado", 4_000, 230, Producer.TOYOTA, ProducerCountry.JAPAN, Type.CUV));
         CARS.add(new Car("Toyota RAV4", 3_000, 200, Producer.TOYOTA, ProducerCountry.JAPAN, Type.SUV));
-        CARS.add(new Car("Kia optima", 1_500, 180, Producer.KIA, ProducerCountry.KOREA, Type.SEDAN));
+        CARS.add(new Car("Kia optima", 1_400, 180, Producer.KIA, ProducerCountry.KOREA, Type.SEDAN));
         CARS.add(new Car("Toyota camry", 2_500, 249, Producer.TOYOTA, ProducerCountry.JAPAN, Type.SEDAN));
         CARS.add(new Car("Mercedes V-class", 4_500, 170, Producer.MERCEDES, ProducerCountry.GERMANY, Type.MINIVAN));
         CARS.add(new Car("BMW M2", 4_500, 410, Producer.BMW, ProducerCountry.GERMANY, Type.COUPE));
